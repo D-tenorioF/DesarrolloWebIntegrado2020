@@ -17,13 +17,13 @@ contraseña: <input type="password" name="password" value="Diego"><br>
 campo oculto: <input type="hidden" name="codigo" value="Diego"><br>
 </p>
 <h2>Ejemplo tabla</h2>
-<table cellspacing="4" cellpadding="3" border="1">
+<table cellspacing="4" cellpadding="3" border="1"> 
    <tr>
    <td align="center">Nombre</td>
    <td align="center">Apellidos</td>
    <td align="center">Nombre</td>
        
-  </tr>
+  </tr> 
   <tr>
         <td>Diego</td>
         <td>Tenorio</td>
@@ -40,5 +40,21 @@ campo oculto: <input type="hidden" name="codigo" value="Diego"><br>
         <td>14</td>
   </tr>           
 </table>
+<br>
+<h1>Imagenes en una pagina web</h1>
+<img src="imagenes/pinguinos.jpg" width="200" height="200" align="left" alt="No se pudo mostrar la imagen">
+<img src="imagenes/pinguinos.jpg" width="300" height="300" align="right" alt="No se pudo mostrar la imagen">
+<h2>Ejemplo tabla</h2>
+<br>
+<table cellspacing="3" cellpadding="4" border="2"> 
+   <tr>
+   <td align="center">Pinguinos</td>
+   <td align="center">Tulipanes</td>
+   <td align="center">Desierto</td>
+   </tr>
+    <tr>
+        <td><img src="imagenes/pinguinos.jpg" width="200" height="200" align="right" alt="No se pudo mostrar la imagen"></td>
+        <td><img src="imagenes/tulipanes.jpg" width="200" height="200" align="right" alt="No se pudo mostrar la imagen"></td>
+        <td><img src="imagenes/amanecer.jpg" width="200" height="200" align="right" alt="No se pudo mostrar la imagen"></td>
 </body>
 </html>
